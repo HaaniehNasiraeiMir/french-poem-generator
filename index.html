@@ -7,17 +7,19 @@
     <title>AI French poem generator</title>
 </head>
 <body>
+    <div class="container">
     <header><h1>AI French poem generator</h1></header>
     <main>
         <form>
-            <input type="text" placeholder="Enter the topic:" autofocus required autocomplete="off">
-            <input type="submit">
+            <input type="text" placeholder="Enter the topic:" autofocus required autocomplete="off" class="prompt">
+            <input type="submit" class="submit">
         </form>
-        <div>
+        <div class="result">
             The poem will go here:
         </div>
     </main>
     <footer>This AI project was coded by <a href="https://github.com/HaaniehNasiraeiMir" target="_blank">Haanieh Nasiraei Mir</a>, is <a href="https://github.com/HaaniehNasiraeiMir/french-poem-generator" target="_blank">open-sourced on GitHub</a> and is hosted on <a href="https://french-poem-generator-ten.vercel.app/" target="_blank">Vercel</a></footer>
+    </div>
     <script src="src/index.js"></script>
 </body>
 </html>
