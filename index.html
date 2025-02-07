@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css">
     <title>AI French poem generator</title>
 </head>
@@ -12,7 +13,7 @@
     <header><h1>AI French poem generator</h1></header>
     <main>
         <form id="generator">
-            <input type="text" placeholder="Enter the topic:" autofocus required autocomplete="off" class="prompt">
+            <input type="text" placeholder="Enter the topic:" autofocus required autocomplete="off" class="prompt" id="input">
             <input type="submit" class="submit">
         </form>
         <div class="result" id="poem">
